@@ -14,8 +14,7 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
-  background-color: black;
-  background-opacity: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 h1 {
