@@ -33,7 +33,7 @@ setInterval(updateCountdown, 1000);
 // Existing JavaScript Code Here
 
 // Open the modal when the "About" button is clicked
-document.querySelector('.button').addEventListener('click', function () {
+document.querySelector('#about-modal-button').addEventListener('click', function () {
   document.querySelector('#about-modal').style.display = 'block';
 });
 
