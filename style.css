@@ -57,6 +57,7 @@ p {
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
