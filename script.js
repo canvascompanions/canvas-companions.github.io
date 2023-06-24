@@ -29,3 +29,15 @@ updateCountdown();
 
 // Update the countdown every second
 setInterval(updateCountdown, 1000);
+
+// Existing JavaScript Code Here
+
+// Open the modal when the "About" button is clicked
+document.querySelector('.button').addEventListener('click', function () {
+  document.querySelector('#about-modal').style.display = 'block';
+});
+
+// Close the modal when the close button is clicked
+document.querySelector('.close').addEventListener('click', function () {
+  document.querySelector('#about-modal').style.display = 'none';
+});
