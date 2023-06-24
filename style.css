@@ -49,3 +49,18 @@ p {
   font-size: 16px;
   color: white;
 }
+
+.button {
+  background: linear-gradient(to right, #3EB489, #4FE5AE);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #4FE5AE, #3EB489);
+}
