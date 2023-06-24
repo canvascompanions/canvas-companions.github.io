@@ -85,6 +85,7 @@ p {
   max-width: 600px;
   border-radius: 6px;
   position: relative;
+  color: black;
 }
 
 .close {
