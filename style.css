@@ -84,7 +84,10 @@ p {
   padding: 20px;
   max-width: 600px;
   border-radius: 6px;
-  position: relative;
+  position: relative
+}
+
+.modal-content p {
   color: black;
 }
 
